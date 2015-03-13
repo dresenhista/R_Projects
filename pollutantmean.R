@@ -22,4 +22,4 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
     
 
     mean(data[[pollutant]], na.rm = T)
-    }
+}
